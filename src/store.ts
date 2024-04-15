@@ -1,7 +1,7 @@
 import { configureStore, createSlice, PayloadAction } from "@reduxjs/toolkit";
 
 interface AmountState {
-  value: number;
+  value?: number;
 }
 
 interface CurrencyState {
